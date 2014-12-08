@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="description" content="html5">
+    <title></title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+
+
+<div id="contenido">
+
+    <header>
+
+        <h1 class="tittle">
+            Dma-Source Interactive Designs
+        </h1>
+        <!-- <img src="banner.jpg" class="banner" > -->
+
+    </header>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : 'your-app-id',
+            xfbml      : true,
+            version    : 'v2.1'
+        });
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a>
+
+            </li>
+            <li><a href="#">Nuestros Servicios</a>
+            </li>
+            <li><a href="tecnologia.html">Tecnología</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="acerca.html">Quienes Somos</a></li>
+        </ul>
+    </nav>
+    <aside>
+        <div id="fixedWidth">
+            <p>Links Sociales</p>
+            <div id="fb-root"></div>
+            <div class="fb-like" data-href="https://dma-source.com" data-width="50" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+        </div>
+    </aside>
+
+    <section class="blocks">
+
+        <div class="formato">
+            <article>
+                <video controls="true" loop class="embed-responsive-item"  width="640" height="320">
+                    <source src="videos/FormatFactorybuild%202014-04-03%2022-04-46-41.mp4" type=video/mp4>
+                </video>
+            </article>
+        </div>
+
+
+        <div class="formato">
+            <article>
+                <video controls="true" loop class="embed-responsive-item"  width="640" height="320">
+                    <source src="videos/FormatFactorychrome%202014-04-04%2003-35-20-30.mp4" type=video/mp4>
+                </video>
+            </article>
+        </div>
+
+        <div class="formato">
+            <article>
+                <video controls="true" loop class="embed-responsive-item"  width="640" height="320">
+                    <source src="videos/FormatFactoryUnity%202014-12-07%2019-35-16-15.mp4" type=video/mp4>
+                </video>
+            </article>
+        </div>
+
+
+
+
+    </section>
+</div>
+<footer class="efinal">
+    <div>
+
+        <p>E-mail:contacto@anime-desu.com<br>
+            Teléfono: 000-555-789</p>
+    </div>
+</footer>
+
+</body>
+
+
+
+</html>
